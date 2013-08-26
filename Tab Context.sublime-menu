@@ -1,0 +1,4 @@
+[
+    { "command": "clone_file", "caption": "Clone tab" },
+    { "command": "rename_file_in_tab", "caption": "Rename file..." }
+]
