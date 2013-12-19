@@ -1,4 +1,5 @@
 [
     { "command": "clone_file", "caption": "Clone tab" },
-    { "command": "rename_file_in_tab", "caption": "Rename file..." }
+    { "command": "rename_file_in_tab", "caption": "Rename file..." },
+    { "command": "reveal_in_side_bar", "caption": "Find in sidebar" }
 ]
