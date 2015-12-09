@@ -44,3 +44,16 @@ class FileopRevealInSideBar(sublime_plugin.TextCommand):
         w.focus_view(view)
         w.run_command('reveal_in_side_bar')
 
+
+class CopyFilePath(sublime_plugin.TextCommand):
+    def run(self, edit, args=None, index=-1, group=-1, **kwargs):
+        w = self.view.window()
+        views = w.views_in_group(group)
+        view = views[index]
+
+        file_name = view.file_name()
+        if file_name is None:
+            return
+
+        sublime.set_clipboard(file_name)
+
