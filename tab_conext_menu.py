@@ -38,13 +38,13 @@ class RenameFileInTabCommand(sublime_plugin.TextCommand):
 
             os.rename(old, new)
 
-            v = self.window.find_open_file(old)
+            v = self.view.window().find_open_file(old)
             if v:
                 v.retarget(new)
         except OSError as e:
             sublime.error_message("Unable to rename: " + str(e))
-        except:
-            sublime.error_message("Unable to rename")
+        except Exception as e:
+            sublime.error_message("Unable to rename: " + str(e))
 
 
 class CloneFileContentsCommand(sublime_plugin.TextCommand):
