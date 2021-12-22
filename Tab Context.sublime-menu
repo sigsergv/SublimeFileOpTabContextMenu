@@ -2,7 +2,7 @@
     { "caption": "-" },
     { "command": "fileop_clone_file", "caption": "Clone tab", "args": { "group": -1, "index": -1 } },
     { "command": "rename_file_in_tab", "caption": "Rename file...", "args": { "group": -1, "index": -1 } },
-    { "command": "fileop_reveal_in_side_bar", "caption": "Find in sidebar", "args": { "group": -1, "index": -1 }},
+    { "command": "fileop_reveal_in_side_bar", "caption": "Reveal in Side Bar", "args": { "group": -1, "index": -1 }},
     { "command": "clone_file_contents", "caption": "Clone file contents", "args": { "group": -1, "index": -1 } },
-    { "command": "copy_file_path", "caption": "Copy file path", "args": { "group": -1, "index": -1 } }
+    { "command": "copy_file_path", "caption": "Copy File Path", "args": { "group": -1, "index": -1 } }
 ]
