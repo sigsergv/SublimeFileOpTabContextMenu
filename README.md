@@ -3,6 +3,6 @@ useful command to a tab context menu. Here they are:
 
 * **Clone tab** — clone active tab, the same as menu *File → New View into file*;
 * **Rename file...** — renames a file opened in the active tab
-* **Find in sidebar** — reveals file in the sidebar (project files tree)
-* **Clone file content** — create a new file and copy there content of currenlty opened file
-* **Copy file path** — copy full file path to the clipboard
+* **Find in Side Bar** — reveals file in the sidebar (project files tree)
+* **Clone file contents** — create a new file and copy there content of currenlty opened file
+* **Copy File Path** — copy full file path to the clipboard
